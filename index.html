@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Virtual Poem Gallery</h1>
+<div id="wall-west">
+    <article id="poem-moon" class="poem">
+    <h3>The Moon</h3>
+    <p>The moon's light shined through the night.</p>
+    </article>
+    <article id="poem-rain" class="poem">
+    <h3>Rain</h3>
+    <p>It rained softly upon the roof.</p>
+    </article>
+</div>
+<div id="wall-east">
+    <article id="poem-teapot" class="poem">
+    <h3>The Teapot</h3>
+    <p>Out of the teapot poured my tea.</p>
+    </article>
+    <article id="poem-socks" class="poem">
+    <h3>Socks</h3>
+    <p>My left sock has a hole in it.</p>
+</article>
+</div>
+<input type="text" id="poem-title" placeholder="Title">
+<textarea id="poem-lines" placeholder="Poem"></textarea>
+<input type="color" id="poem-color" value="#ffff99">
+<select id="poem-wall">
+  <option value="wall-west">West Wall</option>
+  <option value="wall-east">East Wall</option>
+</select>
+<button id="add-poem-btn">Add Poem</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
